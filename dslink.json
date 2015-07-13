@@ -1,0 +1,16 @@
+{
+  "name": "dslink-javascript-particle.io",
+  "version": "0.0.0",
+  "description": "A DSLink for Particle Cloud and connecting Particle devices to your own server.",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "getDependencies": [
+    "npm install"
+  ],
+  "configs": {
+    "broker": {
+      "type": "url"
+    }
+  }
+}
